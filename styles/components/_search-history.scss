@@ -24,6 +24,11 @@
 
   &-item {
     position: relative;
+    border-radius: 2px;
+
+    &:hover {
+      background-color: $background;
+    }
 
     .word-button {
       @include text-style(16, $primary);
@@ -31,7 +36,6 @@
       padding: 10px $delete-button-size 10px 8px;
       font-weight: 400;
       text-align: left;
-      background-color: $white;
     }
 
     .delete-button {
@@ -43,6 +47,10 @@
       height: $delete-button-size;
       font-size: 16px;
       color: $tertiary;
+
+      &:hover {
+        color: $primary;
+      }
     }
   }
 }
