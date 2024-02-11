@@ -24,6 +24,7 @@
       padding: $padding;
       @include text-style(18, $primary);
       font-weight: 700;
+      white-space: nowrap;
     }
   }
 }
