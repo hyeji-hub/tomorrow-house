@@ -9,6 +9,7 @@
 
   &-list {
     @include inline-flexbox(start);
+    min-width: 100vw;
     height: $lnb-height-sm;
     margin-left: -#{$grid-margin};
     padding: 0 #{$grid-margin - $lnb-link-padding};
@@ -44,6 +45,7 @@
     border-bottom: 1px solid $border;
 
     &-list {
+      min-width: auto;
       height: auto;
       padding: 0;
       margin-left: 0;
